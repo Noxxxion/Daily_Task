@@ -1,0 +1,9 @@
+# Python-Bytecode-Cache ignorieren
+**/__pycache__/
+*.pyc
+
+# Falls pytest doch mal versehentlich Cache erzeugt
+.pytest_cache/
+
+# VS Code Einstellungen (optional, falls du sie nicht teilen willst)
+.vscode/
