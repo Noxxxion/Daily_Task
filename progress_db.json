@@ -1,0 +1,54 @@
+{
+  "letztes_update": "",
+  "aktuelle_streak": 0,
+  "aufgaben": {
+    "Aufgabe_2026-06-16_LogParser": {
+      "datum": "2026-06-16",
+      "thema": "LogParser",
+      "tags": [
+        "string-parsing",
+        "log-analysis",
+        "file-processing",
+        "data-extraction",
+        "error-handling"
+      ],
+      "status": "ungeloest"
+    },
+    "Aufgabe_2026-06-17_Datenbank-Query-Builder": {
+      "datum": "2026-06-17",
+      "thema": "QueryBuilder",
+      "tags": [
+        "sql",
+        "database",
+        "string-parsing",
+        "exception-handling",
+        "query-builder"
+      ],
+      "status": "ungeloest"
+    },
+    "Aufgabe_2026-06-18_Netzwerk-Protokoll-Parser": {
+      "datum": "2026-06-18",
+      "thema": "Netzwerkprotokoll-Parser",
+      "tags": [
+        "networking",
+        "log-parsing",
+        "data-validation",
+        "ipv4",
+        "protocol-analysis"
+      ],
+      "status": "ungeloest"
+    },
+    "Aufgabe_2026-06-19_Datenbank-Query-Builder": {
+      "datum": "2026-06-19",
+      "thema": "QueryBuilder",
+      "tags": [
+        "sql",
+        "database",
+        "security",
+        "string-manipulation",
+        "class-design"
+      ],
+      "status": "ungeloest"
+    }
+  }
+}
