@@ -1,5 +1,5 @@
 {
-  "letztes_update": "2026-06-20",
+  "letztes_update": "2026-06-19",
   "aktuelle_streak": 0,
   "aufgaben": {
     "Aufgabe_2026-06-16_LogParser": {
@@ -47,6 +47,18 @@
         "recursive merge",
         "type safety",
         "pytest testing"
+      ],
+      "status": "ungeloest"
+    },
+    "Aufgabe_2026-06-19_TokenValidierung": {
+      "datum": "2026-06-19",
+      "thema": "TokenValidierung",
+      "tags": [
+        "token-validation",
+        "regex-free",
+        "string-validation",
+        "input-sanitization",
+        "unit-testing"
       ],
       "status": "ungeloest"
     }
