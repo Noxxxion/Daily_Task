@@ -37,18 +37,6 @@
         "protocol-analysis"
       ],
       "status": "ungeloest"
-    },
-    "Aufgabe_2026-06-19_Datenbank-Query-Builder": {
-      "datum": "2026-06-19",
-      "thema": "QueryBuilder",
-      "tags": [
-        "sql",
-        "database",
-        "security",
-        "string-manipulation",
-        "class-design"
-      ],
-      "status": "ungeloest"
     }
   }
 }
