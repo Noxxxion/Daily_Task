@@ -1,5 +1,5 @@
 {
-  "letztes_update": "",
+  "letztes_update": "2026-06-20",
   "aktuelle_streak": 0,
   "aufgaben": {
     "Aufgabe_2026-06-16_LogParser": {
@@ -12,7 +12,7 @@
         "data-extraction",
         "error-handling"
       ],
-      "status": "ungeloest"
+      "status": "geloest"
     },
     "Aufgabe_2026-06-17_Datenbank-Query-Builder": {
       "datum": "2026-06-17",
@@ -35,6 +35,18 @@
         "data-validation",
         "ipv4",
         "protocol-analysis"
+      ],
+      "status": "ungeloest"
+    },
+    "Aufgabe_2026-06-20_ConfigMerger": {
+      "datum": "2026-06-20",
+      "thema": "ConfigMerger",
+      "tags": [
+        "configuration management",
+        "deep copy",
+        "recursive merge",
+        "type safety",
+        "pytest testing"
       ],
       "status": "ungeloest"
     }
