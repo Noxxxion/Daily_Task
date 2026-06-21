@@ -1,5 +1,5 @@
 {
-  "letztes_update": "2026-06-19",
+  "letztes_update": "2026-06-21",
   "aktuelle_streak": 0,
   "aufgaben": {
     "Aufgabe_2026-06-16_LogParser": {
@@ -24,7 +24,7 @@
         "exception-handling",
         "query-builder"
       ],
-      "status": "ungeloest"
+      "status": "geloest"
     },
     "Aufgabe_2026-06-18_Netzwerk-Protokoll-Parser": {
       "datum": "2026-06-18",
@@ -36,7 +36,7 @@
         "ipv4",
         "protocol-analysis"
       ],
-      "status": "ungeloest"
+      "status": "geloest"
     },
     "Aufgabe_2026-06-20_ConfigMerger": {
       "datum": "2026-06-20",
@@ -59,6 +59,18 @@
         "string-validation",
         "input-sanitization",
         "unit-testing"
+      ],
+      "status": "geloest"
+    },
+    "Aufgabe_2026-06-21_IPRangeChecker": {
+      "datum": "2026-06-21",
+      "thema": "IPRangeChecker",
+      "tags": [
+        "ipv4",
+        "cidr",
+        "netzwerk",
+        "ipaddress",
+        "validierung"
       ],
       "status": "ungeloest"
     }
