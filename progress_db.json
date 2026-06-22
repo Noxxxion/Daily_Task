@@ -1,5 +1,5 @@
 {
-  "letztes_update": "2026-06-21",
+  "letztes_update": "2026-06-22",
   "aktuelle_streak": 0,
   "aufgaben": {
     "Aufgabe_2026-06-16_LogParser": {
@@ -71,6 +71,16 @@
         "netzwerk",
         "ipaddress",
         "validierung"
+      ],
+      "status": "ungeloest"
+    },
+    "Aufgabe_2026-06-22_SerialNumberChecker": {
+      "datum": "2026-06-22",
+      "thema": "SerialNumberChecker",
+      "tags": [
+        "devops",
+        "oop",
+        "allgemein"
       ],
       "status": "ungeloest"
     }
