@@ -84,13 +84,15 @@
       ],
       "status": "ungeloest"
     },
-    "Aufgabe_2026-06-23_ZustandsAutomat": {
+    "Aufgabe_2026-06-23_AufgabenSortierer": {
       "datum": "2026-06-23",
-      "thema": "ZustandsAutomat",
+      "thema": "AufgabenSortierer",
       "tags": [
-        "oop",
-        "design-patterns",
-        "anwendungsentwicklung"
+        "sortierung",
+        "priority",
+        "immutable",
+        "validation",
+        "stable-sort"
       ],
       "status": "ungeloest"
     }
