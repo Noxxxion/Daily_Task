@@ -65,13 +65,35 @@
     "Aufgabe_2026-06-21_IPRangeChecker": {
       "datum": "2026-06-21",
       "thema": "IPRangeChecker",
-      "tags": ["ipv4", "cidr", "netzwerk", "ipaddress", "validierung"],
+      "tags": [
+        "ipv4",
+        "cidr",
+        "netzwerk",
+        "ipaddress",
+        "validierung"
+      ],
       "status": "ungeloest"
     },
     "Aufgabe_2026-06-22_SerialNumberChecker": {
       "datum": "2026-06-22",
       "thema": "SerialNumberChecker",
-      "tags": ["devops", "oop", "allgemein"],
+      "tags": [
+        "devops",
+        "oop",
+        "allgemein"
+      ],
+      "status": "ungeloest"
+    },
+    "Aufgabe_2026-06-23_AufgabenSortierer": {
+      "datum": "2026-06-23",
+      "thema": "AufgabenSortierer",
+      "tags": [
+        "sortierung",
+        "stabilität",
+        "priorisierung",
+        "datenintegrität",
+        "typsicherheit"
+      ],
       "status": "ungeloest"
     }
   }
