@@ -1,5 +1,5 @@
 {
-  "letztes_update": "2026-06-22",
+  "letztes_update": "2026-06-23",
   "aktuelle_streak": 0,
   "aufgaben": {
     "Aufgabe_2026-06-16_LogParser": {
@@ -81,6 +81,18 @@
         "devops",
         "oop",
         "allgemein"
+      ],
+      "status": "ungeloest"
+    },
+    "Aufgabe_2026-06-23_ZustandsAutomat": {
+      "datum": "2026-06-23",
+      "thema": "ZustandsAutomat",
+      "tags": [
+        "oop",
+        "design-patterns",
+        "state-machine",
+        "type-hints",
+        "validation"
       ],
       "status": "ungeloest"
     }
