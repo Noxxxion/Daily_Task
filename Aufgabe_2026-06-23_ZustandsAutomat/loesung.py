@@ -1,67 +1,55 @@
-# Order State Machine - Code Skeleton
-
-```python
 import os
 from typing import List, Dict, Set, Optional
 
-class InvalidStateTransitionException(Exception):
-    """Custom exception raised when an invalid state transition is attempted."""
-    pass
-
-class OrderStatus:
-    """Enumeration of valid order statuses."""
-    OFFEN = "OFFEN"
+class OrderState:
+    ERSTELLT = "ERSTELLT"
     IN_BEARBEITUNG = "IN_BEARBEITUNG"
+    VERSANDT = "VERSANDT"
     ABGESCHLOSSEN = "ABGESCHLOSSEN"
-    STORNIERT = "STORNIERT"
+    ABGEBROCHEN = "ABGEBROCHEN"
+
+class InvalidTransitionError(Exception):
+    """Exception raised when an invalid state transition is attempted."""
+    pass
 
 class OrderStateMachine:
     """
-    A finite state machine for managing order status transitions.
+    A finite state machine for managing order states according to defined business rules.
     
-    The state machine ensures that order status can only be changed according to
-    predefined rules, maintaining process integrity and preventing invalid transitions.
+    The state machine ensures that transitions between order states follow strict business logic,
+    preventing invalid state changes such as moving from 'ERSTELLT' directly to 'VERSANDT'.
     """
-
-    # Define valid transitions between states
-    _TRANSITIONS: Dict[str, Set[str]] = {
-        OrderStatus.OFFEN: {OrderStatus.IN_BEARBEITUNG, OrderStatus.STORNIERT},
-        OrderStatus.IN_BEARBEITUNG: {OrderStatus.ABGESCHLOSSEN, OrderStatus.STORNIERT},
-        OrderStatus.ABGESCHLOSSEN: set(),  # Terminal state
-        OrderStatus.STORNIERT: set()       # Terminal state
-    }
-
-    def __init__(self, initial_status: str = OrderStatus.OFFEN):
+    
+    def __init__(self, initial_state: str):
         """
-        Initialize the state machine with an initial status.
+        Initialize the state machine with an initial state.
         
         Args:
-            initial_status (str): The starting status of the order.
+            initial_state (str): The starting state of the order.
             
         Raises:
-            InvalidStateTransitionException: If the initial status is not valid.
+            InvalidTransitionError: If the initial state is not a valid order state.
         """
         pass
-
-    @property
-    def current_status(self) -> str:
+    
+    def transition_to(self, target_state: str) -> None:
         """
-        Get the current status of the order.
+        Transition the order to a new state according to business rules.
+        
+        Args:
+            target_state (str): The desired target state.
+            
+        Raises:
+            InvalidTransitionError: If the transition is not allowed by business rules
+                                    or if the target state is invalid.
+        """
+        pass
+    
+    def get_current_state(self) -> str:
+        """
+        Get the current state of the order.
         
         Returns:
-            str: The current status.
+            str: The current state of the order.
         """
         pass
-
-    def transition_to(self, target_status: str) -> None:
-        """
-        Transition the order to a new status if allowed by the state machine rules.
-        
-        Args:
-            target_status (str): The desired target status.
-            
-        Raises:
-            InvalidStateTransitionException: If the transition is not allowed or invalid.
-        """
-        pass
-```
