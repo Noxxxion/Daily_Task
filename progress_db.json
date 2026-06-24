@@ -1,5 +1,5 @@
 {
-  "letztes_update": "2026-06-23",
+  "letztes_update": "2026-06-24",
   "aktuelle_streak": 0,
   "aufgaben": {
     "Aufgabe_2026-06-16_LogParser": {
@@ -93,6 +93,18 @@
         "priorisierung",
         "datenintegrität",
         "typsicherheit"
+      ],
+      "status": "ungeloest"
+    },
+    "Aufgabe_2026-06-24_PreisRechner": {
+      "datum": "2026-06-24",
+      "thema": "PreisRechner",
+      "tags": [
+        "rechnung",
+        "berechnung",
+        "fehlerbehandlung",
+        "typsicherheit",
+        "mathematik"
       ],
       "status": "ungeloest"
     }
