@@ -1,5 +1,5 @@
 {
-  "letztes_update": "2026-06-24",
+  "letztes_update": "2026-06-25",
   "aktuelle_streak": 0,
   "aufgaben": {
     "Aufgabe_2026-06-16_LogParser": {
@@ -105,6 +105,18 @@
         "fehlerbehandlung",
         "typsicherheit",
         "mathematik"
+      ],
+      "status": "ungeloest"
+    },
+    "Aufgabe_2026-06-25_ZustandsWandler": {
+      "datum": "2026-06-25",
+      "thema": "ZustandsWandler",
+      "tags": [
+        "state-machine",
+        "validation",
+        "encapsulation",
+        "immutability",
+        "atomicity"
       ],
       "status": "ungeloest"
     }
