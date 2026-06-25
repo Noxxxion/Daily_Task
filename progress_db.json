@@ -1,5 +1,5 @@
 {
-  "letztes_update": "2026-06-25",
+  "letztes_update": "2026-06-26",
   "aktuelle_streak": 0,
   "aufgaben": {
     "Aufgabe_2026-06-16_LogParser": {
@@ -117,6 +117,18 @@
         "encapsulation",
         "immutability",
         "atomicity"
+      ],
+      "status": "ungeloest"
+    },
+    "Aufgabe_2026-06-26_BestandsVergleich": {
+      "datum": "2026-06-26",
+      "thema": "BestandsVergleich",
+      "tags": [
+        "algorithm",
+        "set-operation",
+        "type-hinting",
+        "exception-handling",
+        "immutability"
       ],
       "status": "ungeloest"
     }
