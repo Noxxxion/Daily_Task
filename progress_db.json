@@ -1,5 +1,5 @@
 {
-  "letztes_update": "2026-06-26",
+  "letztes_update": "2026-06-27",
   "aktuelle_streak": 0,
   "aufgaben": {
     "Aufgabe_2026-06-16_LogParser": {
@@ -129,6 +129,18 @@
         "type-hinting",
         "exception-handling",
         "immutability"
+      ],
+      "status": "ungeloest"
+    },
+    "Aufgabe_2026-06-27_SchrittListe": {
+      "datum": "2026-06-27",
+      "thema": "SchrittListe",
+      "tags": [
+        "oop",
+        "encapsulation",
+        "validation",
+        "workflow",
+        "state-machine"
       ],
       "status": "ungeloest"
     }
