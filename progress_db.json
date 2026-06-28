@@ -1,5 +1,5 @@
 {
-  "letztes_update": "2026-06-27",
+  "letztes_update": "2026-06-28",
   "aktuelle_streak": 0,
   "aufgaben": {
     "Aufgabe_2026-06-16_LogParser": {
@@ -141,6 +141,18 @@
         "validation",
         "workflow",
         "state-machine"
+      ],
+      "status": "ungeloest"
+    },
+    "Aufgabe_2026-06-28_TextFragmenter": {
+      "datum": "2026-06-28",
+      "thema": "TextFragmenter",
+      "tags": [
+        "text-processing",
+        "string-manipulation",
+        "data-fragmentation",
+        "clean-code",
+        "unit-testing"
       ],
       "status": "ungeloest"
     }
