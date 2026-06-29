@@ -1,5 +1,5 @@
 {
-  "letztes_update": "2026-06-28",
+  "letztes_update": "2026-06-29",
   "aktuelle_streak": 0,
   "aufgaben": {
     "Aufgabe_2026-06-16_LogParser": {
@@ -153,6 +153,18 @@
         "data-fragmentation",
         "clean-code",
         "unit-testing"
+      ],
+      "status": "ungeloest"
+    },
+    "Aufgabe_2026-06-29_ZeitplanStruktur": {
+      "datum": "2026-06-29",
+      "thema": "ZeitplanStruktur",
+      "tags": [
+        "oop",
+        "design-patterns",
+        "algorithms",
+        "data-structures",
+        "validation"
       ],
       "status": "ungeloest"
     }
