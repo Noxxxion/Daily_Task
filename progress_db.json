@@ -1,5 +1,5 @@
 {
-  "letztes_update": "2026-06-29",
+  "letztes_update": "2026-06-30",
   "aktuelle_streak": 0,
   "aufgaben": {
     "Aufgabe_2026-06-16_LogParser": {
@@ -165,6 +165,18 @@
         "algorithms",
         "data-structures",
         "validation"
+      ],
+      "status": "ungeloest"
+    },
+    "Aufgabe_2026-06-30_ObjektKoppler": {
+      "datum": "2026-06-30",
+      "thema": "ObjektKoppler",
+      "tags": [
+        "oop",
+        "design-patterns",
+        "algorithms",
+        "data-integrity",
+        "immutability"
       ],
       "status": "ungeloest"
     }
