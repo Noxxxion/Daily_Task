@@ -1,5 +1,5 @@
 {
-  "letztes_update": "2026-06-30",
+  "letztes_update": "2026-07-01",
   "aktuelle_streak": 0,
   "aufgaben": {
     "Aufgabe_2026-06-16_LogParser": {
@@ -177,6 +177,18 @@
         "algorithms",
         "data-integrity",
         "immutability"
+      ],
+      "status": "ungeloest"
+    },
+    "Aufgabe_2026-07-01_RollenManager": {
+      "datum": "2026-07-01",
+      "thema": "RollenManager",
+      "tags": [
+        "oop",
+        "encapsulation",
+        "immutability",
+        "validation",
+        "exception-handling"
       ],
       "status": "ungeloest"
     }
